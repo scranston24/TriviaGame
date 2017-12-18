@@ -1,0 +1,23 @@
+body {
+  background: url("../images/stock.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h2 {
+  color: black;
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  width: 50%;
+
+}
+
+.questions {
+  text-align: center;
+  color: black;
+}
