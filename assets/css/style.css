@@ -4,20 +4,39 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
-h1, h2 {
-  color: black;
+@font-face {
+  font-family: DollarBill;
+  src: url("../fonts/DollarBill.ttf");
+}
+
+h1 {
+  color: #008000;
+  text-align: center;
+  font-size: 48px;
+  padding: 15px;
+  font-family: DollarBill, Helvetica, Arial, sans-serif;
+  word-spacing: 0.5em;
+
+
+}
+h2 {
+  color: #000000;
   text-align: center;
 }
 
 .container {
-  background-color: white;
-  width: 50%;
-
+  background-color: #FFFF00;
+  margin: auto;
+  width: 60%;
+  height: 100%;
+  border: 5px solid #32CD32;
+  line-height: 40px;
 }
 
 .questions {
   text-align: center;
-  color: black;
+  color: #000000;
 }
