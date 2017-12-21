@@ -19,6 +19,7 @@ function stop(){
 }
 run();
 
+//Questions
 var myQuestions = [
   {
     question: "What does the S & P stand for, in regards to the S & P 500?",
