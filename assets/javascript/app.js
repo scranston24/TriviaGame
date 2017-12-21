@@ -1,3 +1,24 @@
+//Timer
+var number = 30;
+var intervalId;
+
+function run() {
+  intervalId = setInterval(decrement, 1000);
+}
+function decrement() {
+  number--;
+  $("#show-number").html("<h2>" + number + "</h2>");
+    if (number ===0) {
+
+      stop();
+      alert("Times Up!")
+    }
+}
+function stop(){
+  clearInterval(intervalId)
+}
+run();
+
 var myQuestions = [
   {
     question: "What does the S & P stand for, in regards to the S & P 500?",
